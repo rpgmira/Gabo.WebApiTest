@@ -10,5 +10,7 @@ namespace Gabo.Models.Structure
         public string Name { get; set; }
         public string City { get; set; }
         public int Nit { get; set; }
+
+        public List<Employee> Employees { get; set; }
     }
 }

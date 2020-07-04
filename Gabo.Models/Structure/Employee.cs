@@ -9,5 +9,8 @@ namespace Gabo.Models.Structure
         public string LastName { get; set; }
         public DateTime Birthday { get; set; }
         public int Document { get; set; }
+
+        public int CompanyId { get; set; }
+        public Company Company { get; set; }
     }
 }
