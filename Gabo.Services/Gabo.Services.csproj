@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Gabo.Infrastructure\Gabo.Infrastructure.csproj" />
+    <ProjectReference Include="..\Gabo.Models\Gabo.Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Gabo.Infrastructure\Gabo.Infrastructure.csproj" />
     <ProjectReference Include="..\Gabo.Models\Gabo.Models.csproj" />
+    <ProjectReference Include="..\Gabo.Services\Gabo.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="GaboDatabase.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
